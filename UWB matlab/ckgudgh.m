@@ -1,0 +1,12 @@
+clc;clear;
+t=0:30;
+y1 = 2+sin(t);
+y2 = sin(t);
+y3 = 4+sin(t);
+y4 = 7+sin(t);
+hold on;
+grid on;
+plot(t,y1);
+plot(t,y2);
+plot(t,y3);
+plot(t,y4);
